@@ -20,7 +20,7 @@ const FavoritePage = () => {
 	useEffect(() => {
 		clearFavorites();
 		fetchFavorites(authUser._id);
-	}, [fetchFavorites, authUser._id]);
+	}, [fetchFavorites, authUser]);
 
 
 	if (isLoading) return null;
