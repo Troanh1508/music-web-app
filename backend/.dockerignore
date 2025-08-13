@@ -1,0 +1,4 @@
+# .dockerignore
+.env
+.env.keys
+node_modules
